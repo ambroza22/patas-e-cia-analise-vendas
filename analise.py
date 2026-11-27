@@ -1,3 +1,4 @@
+
 # Trabalho prático - Patas & Cia Pet Shop
 # Análise das vendas de novembro usando os arquivos vendas.csv e configuracao.json
 
@@ -35,6 +36,7 @@ with open("configuracao.json", "r", encoding="utf-8") as arquivo:
 
 print("===== RELATÓRIO DE VENDAS =====")
 print(f"Empresa: {empresa['empresa']}")
+print(f"Segmento: {empresa['segmento']}")
 print(f"Cidade: {empresa['cidade']}")
 print(f"Período: {empresa['periodo']}")
 print()
@@ -122,7 +124,12 @@ maior_valor_categoria = 0
 print()
 print("===== CATEGORIAS =====")
 for categoria in empresa["categorias"]:
-    valor = faturamento_categoria[categoria]
+    # se a categoria não teve nenhuma venda no mês, o valor fica 0
+    if categoria in faturamento_categoria:
+        valor = faturamento_categoria[categoria]
+    else:
+        valor = 0
+
     meta_categoria = empresa["meta_por_categoria"][categoria]
     participacao = valor / faturamento_total * 100
 
