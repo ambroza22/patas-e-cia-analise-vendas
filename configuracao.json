@@ -1,0 +1,15 @@
+{
+    "empresa": "Patas & Cia Pet Shop",
+    "segmento": "Pet shop (produtos e serviços para animais de estimação)",
+    "cidade": "Valinhos - SP",
+    "periodo": "novembro de 2026",
+    "meta_faturamento": 7500.00,
+    "orcamento_despesas": 5200.00,
+    "meta_ticket_medio": 450.00,
+    "categorias": ["Serviços", "Alimentação", "Acessórios"],
+    "meta_por_categoria": {
+        "Serviços": 3300.00,
+        "Alimentação": 3000.00,
+        "Acessórios": 1200.00
+    }
+}

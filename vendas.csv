@@ -1,0 +1,16 @@
+data;produto;categoria;quantidade;preco_unitario;forma_pagamento;vendedor
+2026-11-02;Banho e tosa;Serviços;6;85.00;Pix;Mariana
+2026-11-03;Ração premium 15 kg;Alimentação;4;189.90;Cartão de crédito;Rafael
+2026-11-05;Petisco natural;Alimentação;12;18.50;Pix;Rafael
+2026-11-06;Banho;Serviços;9;55.00;Cartão de débito;Mariana
+2026-11-09;Coleira ajustável;Acessórios;5;39.90;Dinheiro;Rafael
+2026-11-10;Areia higiênica;Alimentação;8;32.00;Pix;Rafael
+2026-11-12;Banho e tosa;Serviços;8;85.00;Cartão de crédito;Mariana
+2026-11-14;Brinquedo mordedor;Acessórios;10;24.90;Pix;Rafael
+2026-11-16;Ração premium 15 kg;Alimentação;5;189.90;Pix;Rafael
+2026-11-18;Banho;Serviços;11;55.00;Pix;Mariana
+2026-11-20;Petisco natural;Alimentação;15;18.50;Cartão de débito;Rafael
+2026-11-23;Cama para pets;Acessórios;3;129.90;Cartão de crédito;Rafael
+2026-11-25;Banho e tosa;Serviços;7;85.00;Pix;Mariana
+2026-11-27;Areia higiênica;Alimentação;10;32.00;Dinheiro;Rafael
+2026-11-30;Banho;Serviços;12;55.00;Cartão de débito;Mariana
